@@ -7,4 +7,12 @@ for k,v in em_details.items():
     if k=="salary":
         print(min(v))
         print(max(v))
-print(em_details.name)
+        x=v.index(max(v))
+        print(x)
+        print(sum(v))
+for i,j in em_details.items():
+    if i=="name":
+        print(j[x])
+        
+    
+    

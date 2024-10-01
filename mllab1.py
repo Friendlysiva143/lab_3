@@ -6,18 +6,15 @@ em_details={
 m=[]
 for k,v in em_details.items():
     if k=="salary":
-        print(min(v))
-        print(max(v))
+        print("minimum:",min(v))
+        print("maximum:",max(v))
         x=v.index(max(v))
-        print(sum(v))
+        print("sum:",sum(v))
         for i in v:
             if i>23000:
                 m.append(v.index(i))
 for i,j in em_details.items():
     if i=="name":
-        print(j[x])
+        print("max emp:",j[x])
         for c in m:
-            print(j[c])
-        
-    
-    
+            print("greater than :",j[c])
